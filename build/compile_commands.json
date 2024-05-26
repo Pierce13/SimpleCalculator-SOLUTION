@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/piercescott/Weber State/Fall 2024/CS 1410/Simple-Calculator-SOLUTION/build",
+  "command": "/usr/bin/clang++  -I\"/Users/piercescott/Weber State/Fall 2024/CS 1410/Simple-Calculator-SOLUTION/inc\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/SimpleCalculator.dir/src/SimpleCalculator.cpp.o -c \"/Users/piercescott/Weber State/Fall 2024/CS 1410/Simple-Calculator-SOLUTION/src/SimpleCalculator.cpp\"",
+  "file": "/Users/piercescott/Weber State/Fall 2024/CS 1410/Simple-Calculator-SOLUTION/src/SimpleCalculator.cpp",
+  "output": "CMakeFiles/SimpleCalculator.dir/src/SimpleCalculator.cpp.o"
+},
+{
+  "directory": "/Users/piercescott/Weber State/Fall 2024/CS 1410/Simple-Calculator-SOLUTION/build",
+  "command": "/usr/bin/clang++ -DTESTING -I\"/Users/piercescott/Weber State/Fall 2024/CS 1410/Simple-Calculator-SOLUTION/inc\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/SimpleCalculatorTest.dir/src/SimpleCalculatorTest.cpp.o -c \"/Users/piercescott/Weber State/Fall 2024/CS 1410/Simple-Calculator-SOLUTION/src/SimpleCalculatorTest.cpp\"",
+  "file": "/Users/piercescott/Weber State/Fall 2024/CS 1410/Simple-Calculator-SOLUTION/src/SimpleCalculatorTest.cpp",
+  "output": "CMakeFiles/SimpleCalculatorTest.dir/src/SimpleCalculatorTest.cpp.o"
+},
+{
+  "directory": "/Users/piercescott/Weber State/Fall 2024/CS 1410/Simple-Calculator-SOLUTION/build",
+  "command": "/usr/bin/clang++ -DTESTING -I\"/Users/piercescott/Weber State/Fall 2024/CS 1410/Simple-Calculator-SOLUTION/inc\" -g -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/SimpleCalculatorTest.dir/src/SimpleCalculator.cpp.o -c \"/Users/piercescott/Weber State/Fall 2024/CS 1410/Simple-Calculator-SOLUTION/src/SimpleCalculator.cpp\"",
+  "file": "/Users/piercescott/Weber State/Fall 2024/CS 1410/Simple-Calculator-SOLUTION/src/SimpleCalculator.cpp",
+  "output": "CMakeFiles/SimpleCalculatorTest.dir/src/SimpleCalculator.cpp.o"
+}
+]
