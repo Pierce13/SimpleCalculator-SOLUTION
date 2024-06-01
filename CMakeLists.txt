@@ -1,8 +1,6 @@
-# Set minimum CMAKE
 cmake_minimum_required(VERSION 3.13 FATAL_ERROR)
 project( SimpleCalculator )
 
-# require C++17
 set( CMAKE_CXX_STANDARD 17 )
 set( CMAKE_CXX_EXTENSIONS OFF )
 set( CMAKE_CXX_STANDARD_REQUIRED ON )
@@ -17,17 +15,9 @@ ADD_EXECUTABLE( ${APP_EXECUTABLE} "src/SimpleCalculatorTest.cpp"  "src/SimpleCal
 
 target_compile_definitions(SimpleCalculatorTest PRIVATE TESTING)
 
-# Set output directory to base folder
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
 
 set_property( DIRECTORY PROPERTY VS_STARTUP_PROJECT ${APP_EXECUTABLE} )
-
-#add_custom_command(
-#        TARGET ${APP_EXECUTABLE} POST_BUILD
-#        COMMAND ${CMAKE_COMMAND} -E copy
-#                ${CMAKE_SOURCE_DIR}/files/rome99.gr
-#                $<TARGET_FILE_DIR:ShortestPathTest>/rome99.gr
-#)
 
 include (CTest)
 #add_test(${APP_EXECUTABLE}_testBasicGraph ${APP_EXECUTABLE} 1)
