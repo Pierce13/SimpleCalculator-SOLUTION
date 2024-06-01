@@ -20,9 +20,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
 set_property( DIRECTORY PROPERTY VS_STARTUP_PROJECT ${APP_EXECUTABLE} )
 
 include (CTest)
-#add_test(${APP_EXECUTABLE}_testBasicGraph ${APP_EXECUTABLE} 1)
-#add_test(${APP_EXECUTABLE}_testLargeGraph ${APP_EXECUTABLE} 2)
-
+add_test(${APP_EXECUTABLE}_testAreaOfCircle ${APP_EXECUTABLE} 1)
+add_test(${APP_EXECUTABLE}_testAddFractions ${APP_EXECUTABLE} 2)
+add_test(${APP_EXECUTABLE}_testQuadraticFormula ${APP_EXECUTABLE} 3)
 
 find_program(VALGRIND "valgrind")
 if(VALGRIND)
